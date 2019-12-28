@@ -1,2 +1,0 @@
-# DealOrNoDeaL
-Created with CodeSandbox
