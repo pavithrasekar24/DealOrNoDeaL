@@ -16,7 +16,11 @@ class Popup extends React.Component {
       <div className="popup">
         <div className="popup_inner">
           <div
-            style={{ contentAlign: "center", margin: "20px", padding: "50px" }}
+            style={{
+              textAlign: "center",
+              justifyItems: "center",
+              paddingTop: "10px"
+            }}
           >
             <Button
               variant="contained"
@@ -27,7 +31,7 @@ class Popup extends React.Component {
             </Button>
             {this.state.show ? (
               <div>
-                <h3 style={{ textAlign: "center" }}>{this.props.text}</h3>
+                <h3>{this.props.text}</h3>
                 <Button
                   variant="contained"
                   color="secondary"
